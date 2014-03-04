@@ -100,7 +100,7 @@ angular.module('search.services')
       search.token = token
       Restangular.one('search').all('potential_search_complete').post(search).then (->
         cancelPayment()
-        $rootScope.$broadcast "tracking:user:purchase", AppConfig.SEARCH_PRICE, "Nextlanding Search"
+        $rootScope.$broadcast "tracking:user:purchase", AppConfig.SEARCH_PRICE, "Untitler Search"
         Analytics.trackLogin(emailAddress: search.search_attrs.email_address)
         $state.go 'thankYou'
         #find a way to remove the back button - simulate post redirect get

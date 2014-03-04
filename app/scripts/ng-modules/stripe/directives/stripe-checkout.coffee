@@ -25,7 +25,7 @@ angular.module('stripe.directives')
           key: AppConfig.STRIPE_PUBLIC_KEY
           amount: amountInCents
           currency: 'usd'
-          name: 'Nextlanding'
+          name: 'Untitler'
           email: scope.email
           description: scope.description
           image: scope.image
