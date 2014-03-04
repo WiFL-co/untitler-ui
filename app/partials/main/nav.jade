@@ -1,0 +1,18 @@
+nav.navbar.navbar-default.navbar-fixed-top(ng-class="{'hidden':state.current.data.style.AdminStyle}")
+  .container
+    .navbar-header
+      a.navbar-brand(href='../') Nextlanding
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navbar-main.navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li
+          a(ui-sref="search") Start Your Search
+        li
+          a(ui-sref="howitworks") How it Works
+        li
+          a(ui-sref="aboutus") About Us
+        li
+          a(href='http://blog.nextlanding.com') Blog
