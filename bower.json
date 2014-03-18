@@ -17,7 +17,7 @@
     "angular-ui-utils": "0.0.4",
     "angular-ui-router": "0.2.8",
     "lodash": "2.4.4",
-    "sass-bootstrap": "3.0.2",
+    "bootstrap-sass": "3.1.1",
     "momentjs": "2.5.1"
   },
   "overrides": {
@@ -39,9 +39,6 @@
         "./modules/unique/unique.js",
         "./modules/validate/validate.js"
       ]
-    },
-    "sass-bootstrap": {
-      "main": []
     }
   }
 }
