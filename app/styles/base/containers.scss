@@ -4,8 +4,8 @@
 // --------------------------------------------------
 
 .section{
-  border-bottom: 1px solid $nl-alt-container-bottom;
-  @include box-shadow(0px 1px $nl-alt-container-bottom-shaddow);
+  border-bottom: 1px solid $untitled-alt-container-bottom;
+  @include box-shadow(0px 1px $untitled-alt-container-bottom-shadow);
 }
 
 .alt-section{
@@ -60,11 +60,11 @@
 }
 
 .map-marker-label {
-  color: $nl-very-bright;
-  background-color: $nl-gray;
+  color: $untitled-very-bright;
+  background-color: $untitled-gray;
   font-size: 12px;
   text-align: center;
   width: 200px;
   padding:5px;
-  font-family: $nl-font-family-heading;
+  font-family: $untitled-font-family-heading;
 }

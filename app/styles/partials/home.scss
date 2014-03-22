@@ -2,7 +2,7 @@
 
 #home-container {
   .jumbotron {
-    background: $nl-very-bright url('../images/bg/bg-woman.jpg');
+    background: $untitled-very-bright url('../images/bg/bg-woman.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     margin-bottom: 0;
 
     h1, h3 {
-      color: $nl-very-bright;
+      color: $untitled-very-bright;
       text-shadow: 0px 2px 18px #000, 0px -3px 6px #000;
     }
 
@@ -35,7 +35,7 @@
     }
 
     .price {
-      color: $nl-medium-bright;
+      color: $untitled-medium-bright;
     }
   }
 
@@ -47,7 +47,7 @@
       @include img-responsive-center(35px);
 
       h2 {
-        color: $nl-medium-bright;
+        color: $untitled-medium-bright;
 
         //- Responsive
         @media screen and (min-width: $screen-tablet) {
@@ -63,7 +63,7 @@
     //- How it loks
     &#hil-section {
       h3 {
-        color: $nl-medium-bright;
+        color: $untitled-medium-bright;
 
         //- Responsive
         @media screen and (min-width: $screen-tablet) {
@@ -72,7 +72,7 @@
       }
 
       h4 {
-        color: $nl-very-dark;
+        color: $untitled-very-dark;
 
         //- Responsive
         @media screen and (min-width: $screen-tablet) {
@@ -116,7 +116,7 @@
       @include img-responsive-center();
 
       h4 {
-        color: $nl-gray;
+        color: $untitled-gray;
         margin-bottom: 70px;
 
         //- Responsive
@@ -141,7 +141,7 @@
     //- Best stuff
     &#best-stuff-section {
       h4 {
-        color: $nl-gray;
+        color: $untitled-gray;
 
         margin-bottom: 70px;
 

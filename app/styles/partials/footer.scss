@@ -2,18 +2,18 @@
 
 footer#main-footer {
   padding: 20px 0px;
-  background-color: $nl-very-dark;
+  background-color: $untitled-very-dark;
 
   a {
-    color: $nl-less-bright;
+    color: $untitled-less-bright;
     &:hover,
     &:focus {
-      color: darken($nl-less-bright, 15%);
+      color: darken($untitled-less-bright, 15%);
     }
   }
 
   .copyright{
     padding-left: 5px;
-    color: $nl-less-bright;
+    color: $untitled-less-bright;
   }
 }
