@@ -1,18 +1,18 @@
-nav.navbar.navbar-default.navbar-fixed-top(ng-class="{'hidden':state.current.data.style.AdminStyle}")
-  .container
+nav#main-nav.navbar.navbar-default.navbar-fixed-top(ng-class="{'hidden':state.current.data.style.AdminStyle}")
+  .container-fluid
     .navbar-header
-      a.navbar-brand(href='../') Untitler
+      a.navbar-brand(href='../')
+        span#quiet
+          | Un
+        span#loud
+          | Titled
       button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
         span.icon-bar
         span.icon-bar
         span.icon-bar
     #navbar-main.navbar-collapse.collapse
-      ul.nav.navbar-nav
+      ul.nav.navbar-nav.navbar-right
         li
-          a(ui-sref="search") Start Your Search
+          a(ui-sref="recommendations") Recommendations
         li
-          a(ui-sref="howitworks") How it Works
-        li
-          a(ui-sref="aboutus") About Us
-        li
-          a(href='http://blog.untitler.com') Blog
+          a(ui-sref="mybooks") My Books
